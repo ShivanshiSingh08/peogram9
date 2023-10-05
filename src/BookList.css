@@ -1,0 +1,70 @@
+/* BookList.css */
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Spacing between books */
+    margin: 20px; /* Margin around the book list */
+  }
+  
+  .book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fefb53;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book-title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #382f2f;
+  }
+  
+  .book-author {
+    font-size: 1.2rem;
+    color: #261f1f;
+  }
+  
+  .book-description {
+    font-size: 1rem;
+    color: #3d3333;
+    margin-top: 10px;
+  }
+  
+  /* Style the image within the book card */
+  .book img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .book-title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+    text-decoration: underline; /* Add an underline to the title */
+}
+
+/* Style the book author heading */
+.book-author {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold; /* Make the author name bold */
+}
+
+/* Style the book description heading */
+.book-description {
+    font-size: 1rem;
+    color: #392e2e;
+    margin-top: 10px;
+    font-style: italic; /* Add italic style to the description */
+}
+
+/* Style the image within the book card */
+.book img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

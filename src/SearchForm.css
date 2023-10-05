@@ -1,0 +1,53 @@
+/* Style the form container */
+.form-container {
+    /* Existing styles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    /* Additional styles */
+    max-width: 400px; /* Limit the container width */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+/* Style the input field */
+input[type="text"] {
+    /* Existing styles */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+
+    /* Additional styles */
+    box-sizing: border-box; /* Include padding in the input's width */
+    margin-right: 10px; /* Add some spacing between input and button */
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    /* Existing styles */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    /* Additional styles */
+    text-transform: uppercase; /* Make the text uppercase */
+    font-weight: bold; /* Increase the font weight */
+}
+
+button[type="submit"]:hover {
+    /* Existing styles */
+    background-color: #21b300;
+}
